@@ -1,0 +1,30 @@
+header{
+    background-color: #ffffff;
+    padding: 25px 45px;
+    text-align: center;
+    height: 100px;
+}
+nav{
+    margin-left: 444px;
+    margin-right: 200px;
+    display: inline-block;
+}
+.li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.log-in, .free-trial-header{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.log-in{
+    background-color: #f6f0e8;
+    color:black;
+}
+.free-trial-header{
+    background-color: black;
+    color: white;
+}
+
