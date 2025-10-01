@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+}
 header{
     background-color: #ffffff;
     padding: 25px 45px;
@@ -5,8 +9,8 @@ header{
     height: 100px;
 }
 nav{
-    margin-left: 444px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 170px;
     display: inline-block;
 }
 .li{
@@ -26,5 +30,89 @@ nav{
 .free-trial-header{
     background-color: black;
     color: white;
+}
+main{
+    background-image: url("../images/nature\ img.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+}
+.h1, .main-paragraph{
+    text-align: center;
+    width: 600px;
+    margin: 0px auto;
+}
+.h1{
+    font-size: 60px;
+    height: 140px; 
+    font-weight: 700;
+    margin-top: 100px;
+}
+.main-paragraph{
+    font-size: 22px;
+    font-weight: 400px;
+    height: 50px;
+}
+.free-trial-main{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 25px 40px;
+    text-align: center;
+    margin-left: 535px;
+    width: 180px;
+    height: 70px;
+    display: block;
+}
+.section-paragraph{
+    width: 630px;
+    height: 18px;
+    text-align: center;
+    display: block;
+    margin: 40px auto auto;
+}
+div{
+    display: inline-block;
+    margin-left: 25px;
+    margin: auto 0px auto 25px;
+}
+.img{
+    width: 240px;
+    height: 180px;
+}
+.div1-paragraph, .div3-paragraph{
+    width: 200px;
+    height: 70px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.div2-paragraph, .div4-paragraph{
+    width: 200px;
+    height: 45px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.div-1, .div-3{
+    margin-bottom: 100px;
+    margin-top: 80px;
+    height: 330px;
+
+}
+.div-2, .div-4{
+    margin-top: 40px;
+    height: 330px;
+    width: 250pxpx;
+}
+.div-1{
+    margin-left: 110px;
+}
+.div2-paragraph{
+    margin-top: 40px;
+}
+.div4-paragraph{
+    margin-top: 63px;
 }
 
